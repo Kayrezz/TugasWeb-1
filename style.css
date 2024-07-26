@@ -37,6 +37,7 @@
             font-family: var(--body-font);
             background-color: var(--body-color);
             color: var(--text-color);
+            background-color: rgb(110, 168, 168);
         }
         
         img {
