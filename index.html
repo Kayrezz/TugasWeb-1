@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lumanosimo&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>TugasWeb1</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Biodata</h1>
+    </div>
+    <div class="container" id="blur">
+        <div class="card_container">
+            <article class="card__article">
+                <img src="./Rifaldo Aditya.P-Multi mediaC.png" alt="image" class="card__img">
+                <div class="card__data">
+                    <span class="card__description">Halo</span>
+                    <h2 class="card__title">Klik lebih lanjut!</h2>
+                    <a href="#" onclick="toggle()" class="card__button">Read More</a>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div id="popup">
+        <div class="text">
+            <h2>Nama:Rifaldo Aditya.P</h2>
+            <h2>Kelas:11 </h2>
+            <h2>Jurusan:RPL 1</h2>
+            <p>Sekedar cerita singkat tentang saya ,saya anak pertama dari 2 bersaudara saya suka warna biru karna warna biru menggambarkan langit tak terbatas</p>
+            <a href="#" onclick="toggle()">Close</a></div>
+    </div>
+    <footer>
+        <div class="footercontainer">
+            <div class="socialicon"> <a href=""><i data-feather="github"></i></a>
+                <a href=""><i data-feather="instagram"></i></a>
+                <a href=""><i data-feather="phone"></i></a>
+            </div>
+        </div>
+        <div class="footerbootom">
+            <p>Copyright &copy;2024; Designed by
+                <span class="designer">
+                    Rifaldo
+                </span>
+            </p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function toggle() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active')
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+        feather.replace();
+    </script>
+</body>
+
+</html>
