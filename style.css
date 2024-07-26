@@ -37,7 +37,6 @@
             font-family: var(--body-font);
             background-color: var(--body-color);
             color: var(--text-color);
-            background-color: rgb(110, 168, 168);
         }
         
         img {
@@ -51,6 +50,9 @@
             padding-block: 5rem;
             place-items: center;
             display: grid;
+            background-color: rgb(110, 168, 168);
+            border-radius: 28%;
+            margin-bottom: 2px;
         }
         
         .card_container {
@@ -159,7 +161,7 @@
         
         .footercontainer {
             width: 100%;
-            padding: 70px 30px 20px;
+            padding: 70px 50px 125px;
         }
         
         .socialicon {
@@ -248,7 +250,7 @@
         
         @media screen and (min-width: 1120px) {
             .container {
-                height: 100vh;
+                height: 60vh;
             }
             .card_container {
                 grid-template-columns: repeat(3, 1fr);
